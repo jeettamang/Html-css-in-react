@@ -1,0 +1,34 @@
+.heading {
+  text-align: center;
+  font-weight: 600;
+  font-size: x-large;
+  margin-top: 20px;
+}
+.recipes-parent {
+  border: 2px solid red;
+}
+.recipes {
+  border: 2px solid greenyellow;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  margin-top: 20px;
+}
+.recipes-child {
+  border: 2px solid blue;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+.recipes-child img {
+  width: 100%;
+  height: auto;
+}
+.recipes-child h2 {
+  font-size: large;
+  font-weight: 500;
+}
+.heading-para {
+  margin-top: 20px;
+}

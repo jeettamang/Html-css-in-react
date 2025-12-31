@@ -1,0 +1,29 @@
+.contact-form {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #edf6fd;
+  gap: 50px;
+}
+.contact {
+  padding: 40px 60px;
+
+  width: 250px;
+}
+.contact input,
+textarea {
+  width: 100%;
+  margin-bottom: 6px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+.send-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #00b7d7;
+  border: none;
+  border-radius: 12px;
+  color: white;
+}

@@ -1,0 +1,47 @@
+.home {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  background-color: #a3b6e0;
+  padding: 100px;
+  align-items: center;
+}
+
+.left h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.left p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.home-btn {
+  padding: 10px;
+  border: none;
+  background-color: #f08259;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 120px;
+}
+
+.right img {
+  width: 100%;
+  max-width: 600px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .home {
+    grid-template-columns: 1fr;
+    padding: 40px;
+    text-align: center;
+  }
+
+  .right img {
+    margin: 0 auto;
+  }
+}
