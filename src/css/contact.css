@@ -3,8 +3,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #edf6fd;
-  gap: 50px;
+  background-color: #ffffff;
+  gap: 100px;
 }
 .contact {
   padding: 40px 60px;
@@ -13,12 +13,14 @@
 }
 .contact input,
 textarea {
+  background-color: #edf6fd;
   width: 100%;
   margin-bottom: 6px;
   border: none;
   border-radius: 10px;
   padding: 10px;
 }
+
 .send-btn {
   width: 100%;
   padding: 10px;

@@ -55,7 +55,7 @@ const Contact = () => {
         </form>
       </div>
       <div className="right">
-        <img src="/public/businessman.png" />
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfQrNu41qS9fCzYEiEOxsshuJaR44UEH9HNQ&s" />
       </div>
     </div>
   );

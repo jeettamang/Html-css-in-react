@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
-  background-color: #a3b6e0;
+  background-color: #ffffff;
   padding: 100px;
   align-items: center;
 }
@@ -30,7 +30,8 @@
 
 .right img {
   width: 100%;
-  max-width: 600px;
+  max-width: 650px;
+  height: 350px;
 }
 
 /* Mobile */

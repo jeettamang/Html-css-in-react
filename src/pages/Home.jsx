@@ -15,7 +15,7 @@ const Home = () => {
         <button className="home-btn">Get started</button>
       </div>
       <div className="right">
-        <img src="/public/businessman.png" />
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR0cnOJuNd9_k0nKvIAIPmOzN2UWULNt2AZg&s" />
       </div>
     </div>
   );
